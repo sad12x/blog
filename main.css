@@ -1,0 +1,74 @@
+/* all over the page */
+body {
+  background: rgb(3, 43, 43);
+  padding: 0;
+  margin: 0;
+}
+
+/* top part of the page */
+.header > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  border-image-width: 50%;
+  gap: 12px;
+  padding: 12px;
+  margin: 0;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+/* ancher tags in container  */
+a {
+  color: rgb(245, 234, 234);
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* the search part text */
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.lock {
+  display: block;
+}
+/* the container the main part of the page  */
+.container {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* the seach taker  */
+.input {
+  height: 150%;
+  width: 70%;
+  border-radius: 14px;
+  text-transform: lowercase;
+  pointer-events: none;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* the displaying part of the search */
+.display {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}

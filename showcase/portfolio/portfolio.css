@@ -1,0 +1,35 @@
+body {
+  font-size: 24px;
+  background-color: rgb(122, 84, 12);
+}
+
+.header > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  border-image-width: 50%;
+  gap: 12px;
+  padding: 12px;
+  margin: 0;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: rgb(245, 234, 234);
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
